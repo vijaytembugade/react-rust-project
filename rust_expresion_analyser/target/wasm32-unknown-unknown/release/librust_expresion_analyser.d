@@ -1,0 +1,1 @@
+/Users/vijaytembugade/Documents/react-rust-project/rust_expresion_analyser/target/wasm32-unknown-unknown/release/librust_expresion_analyser.rlib: /Users/vijaytembugade/Documents/react-rust-project/rust_expresion_analyser/src/lib.rs
