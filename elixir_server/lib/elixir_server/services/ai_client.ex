@@ -3,7 +3,7 @@ defmodule ElixirServer.Services.AiClient do
     url =
       "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent"
 
-    api_key = "AIzaSyCxbLjVRjUG7bVQLq4_fAnDnw78FtbZLMk"
+    api_key = "API_KEY_GOES_HERE"
 
     # Construct the request URL with query parameter
     request_url = "#{url}?key=#{api_key}"
