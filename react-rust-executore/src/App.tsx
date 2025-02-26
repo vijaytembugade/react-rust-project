@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import init, { evaluate_expression } from "./pkg/rust_expresion_analyser";
 import "./App.css";
 import CalculatorTab from "./tabs/CalculatorTab";
+import ShaderViewer from "./tabs/ShaderViewer";
 
 function App() {
   const [wasmLoaded, setWasmLoaded] = useState(false);
@@ -16,7 +17,12 @@ function App() {
     loadWasm();
   }, []);
 
-  return <>{wasmLoaded && <CalculatorTab />}</>;
+  return (
+    <>
+      {wasmLoaded && <CalculatorTab />}
+      <ShaderViewer />
+    </>
+  );
 }
 
 export default App;
